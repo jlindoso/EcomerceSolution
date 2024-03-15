@@ -35,7 +35,6 @@ namespace API.Controllers
                 if (response.ErrorCode == 404) return NotFound(response);
                 else return StatusCode(500, response);
             }
-
         }
 
         // GET api/<CompanyController>/5
